@@ -1,2 +1,5 @@
-# 4-corner-index-to-text
-Translate input 4-corner indexes to text
+# 4CornerIndex-to-Text
+Translate the 4-corner indexes to Chinese text.
+
+References:
+四角号码检字表（勘误版）：http://bbs.unispim.com/forum.php?mod=viewthread&tid=31674
