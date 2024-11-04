@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="gb18030">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Translator</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>Number to Chinese Translator</h1>
+        <form method="post">
+            <label for="number_input">Enter a number:</label><br>
+            <textarea id="number_input" name="number_input" placeholder="Enter a long number">{{ number_input }}</textarea>
+            <input id="translate_button" type="submit" value="Translate">
+        </form>
+
+        {% if translated_text %}
+            <h2>Translated Text:</h2>
+            <p>{{ translated_text }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
+

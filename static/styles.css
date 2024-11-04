@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    font-family: 'Noto Sans CJK SC', 'SimSun', 'Microsoft YaHei', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 80vh; /* Restrict output height to allow space for scrolling */
+}
+
+h1 {
+    text-align: center;
+    color: #5c67f2;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea {
+    width: 95%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    //resize: vertical; /* Allows resizing the height */
+    overflow-y: auto;
+    overflow-wrap: break-word; /* Ensures long words break and wrap */
+    white-space: pre-wrap; /* Preserves whitespace and wraps text */
+    overflow: hidden; /* Prevents horizontal scroll bars */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Adds space between the textarea and button */
+}
+
+input[type="submit"]:hover {
+    background-color: #4b56d5;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #5c67f2;
+}
+
+p {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+    word-wrap: break-word; /* Ensures text wraps */
+    white-space: pre-wrap; /* Preserves whitespace and wraps text */
+}
+
