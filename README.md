@@ -1,8 +1,14 @@
 # 4CornerIndex-to-Text
 Translate the 4-corner indexes to Chinese text.
 
+## Motivation: 
+A few days ago, my friend [SUN ZHIZHENG](https://kpee.art/81), who is a writer, shared a post on social media, where he mentioned the concept of creating a book titled 《 $\pi$ 》: use the 4-corner index method to encode the digits of $\pi$ into an endless sequence of Chinese characters, forming a book without a final page. The idea fascinated me and sparked my imagination. Inspired by this, I decided to try bringing it to life using Python here.
 
-## Steps:
+## And app for translating input number as 4-corner indexes to Chinese.
+http://yuanhes.com/translate_4CI
+
+
+## My Steps:
 
 1. Extract the 4CornerIndex mapping file from the `html` file converted from the original source `.chm` file.
    - Text version with count: https://github.com/yuanhes/4CornerIndex-to-Text/blob/main/results/extracted_map.txt
