@@ -36,3 +36,4 @@ I turned it into an app for translating input number as 4-corner indexes to Chin
 - Pi digits source: https://www.angio.net/pi/digits.html
   > "50 million digits (compressed, special): You can download 50 million from the Pi searcher [here](https://www.angio.net/pi/pi50.4.bin). These digits are packed together two per byte, so you'll have to download, compile, and use [this program](https://www.angio.net/pi/printpi.c) to print them. Geeks only, sorry."
 - Found a program [y-cruncher](http://www.numberworld.org/y-cruncher) for computing large number of digits of irrational constants, under studying how to use it.
+- Wikipedia page for 4-corner method:  [Four-corner method - Wikipedia](https://en.wikipedia.org/wiki/Four-corner_method)
