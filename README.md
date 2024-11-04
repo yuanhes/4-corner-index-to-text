@@ -2,10 +2,7 @@
 Translate the 4-corner indexes to Chinese text.
 
 ## Motivation: 
-A few days ago, my friend [SUN ZHIZHENG](https://kpee.art/81), who is a writer, shared a post on social media, where he mentioned the concept of creating a book titled 《 $\pi$ 》: use the 4-corner index method to encode the digits of $\pi$ into an endless sequence of Chinese characters, forming a book without a final page. The idea fascinated me and sparked my imagination. Inspired by this, I decided to try bringing it to life using Python here.
-
-## And app for translating input number as 4-corner indexes to Chinese.
-http://yuanhes.com/translate_4CI
+A few days ago, my friend [SUN ZHIZHENG](https://kpee.art/81), who is a writer, shared a post on social media, where he mentioned the concept of creating a book titled 《 $\pi$ 》: use the 4-corner index method to encode the digits of $\pi$ into an endless sequence of Chinese characters, forming a book without a final page. The idea fascinated me and sparked my imagination. Inspired by this, I decided to try bringing it to life using Python here. (of course only to a certain extent :) ).
 
 
 ## My Steps:
@@ -22,7 +19,14 @@ http://yuanhes.com/translate_4CI
    - Text from $\pi$ of 1 million digits: https://github.com/yuanhes/4CornerIndex-to-Text/blob/main/text_from_pi_1M_digits.txt
    - Text from $\pi$ of 50 million digits: https://github.com/yuanhes/4CornerIndex-to-Text/blob/main/text_from_pi_50M_digits.txt
 
+4. Naturally this can be extended to other irrational numbers like $e$, $\sqrt2$, golden ratio ($1+\sqrt5/2$) .
 
+
+## App:
+I turned it into an app for translating input number as 4-corner indexes to Chinese:
+- http://yuanhes.com/translate_4CI
+
+(As I tried, the phone browsers cannot display most of the characters due to encoding issue, while the computer browsers perform much better.)
 
 ***
 
