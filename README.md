@@ -13,7 +13,7 @@ A few days ago, my friend [SUN ZHIZHENG](https://kpee.art/81), who is a writer, 
 
 2. Generate large number of digits of the constant $\pi$.
    - $\pi$ of 1 million digits: [pi1m.txt](https://github.com/yuanhes/4CornerIndex-to-Text/blob/main/pi_calculation/pi50m/pi1m.txt)
-   - $\pi$ of 50 million digits: not uploaded due to large file size
+   - $\pi$ of 50 million digits: [pi50m.txt](https://github.com/yuanhes/4CornerIndex-to-Text/blob/main/pi_calculation/pi50m/pi50m.txt)
  
 3. Generate text with translating the digits of $\pi$ as 4-corner indexes to Chinese.
    - Text from $\pi$ of 1 million digits: [text_from_pi_1M_digits.txt](https://github.com/yuanhes/4CornerIndex-to-Text/blob/main/text_from_pi_1M_digits.txt)
