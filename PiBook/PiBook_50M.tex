@@ -1,0 +1,67 @@
+\documentclass[12pt, oneside]{book} 
+\usepackage{hyperref}
+
+\usepackage{setspace} % Line spacing
+\setstretch{1.5}
+
+\usepackage{parskip} % Paragraph spacing
+\setlength{\parskip}{1em} 
+
+\usepackage{titlesec} % Customizing section and chapter titles
+\titleformat{\maketitle}{\bfseries\huge}{\thetitle}{0pt}{\vspace{1em}}
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancy}
+\fancyhf{} % Clear default header/footer
+\fancyhead[C]{\textbf{$\pi$}} % Centering header content
+\fancyfoot[C]{\thepage} % Centering page numbers on footer
+
+\setlength{\parindent}{2em}  % Set first-line paragraph indentation
+
+% For Chinese display 
+\usepackage[AutoFallBack=true]{xeCJK} % !! Very important to enable AutoFallBack
+\newfontlanguage{Chinese}{CHN}
+\setCJKmainfont[Script=CJK,Language=Chinese]{SimSun}
+\setCJKfallbackfamilyfont{rm}[Script=CJK,Language=Chinese]{PMingLiU-ExtB}
+
+
+\title{《$\pi$》}
+\author{}
+\date{}
+\begin{document}
+	\maketitle
+	
+	{\centering
+		\quad
+		\vspace{4em}
+		
+		403.一本叫《$\pi$》的书 \\
+		用四角编码，把$\pi$变成一串无尽的汉字，组成一本没有最后一页的书。\\
+		2024.10.27 \\
+		
+		\vspace{1em}
+		\href{https://mp.weixin.qq.com/s/LyUCRKytMIxOkjeeRd1OYg}{IDEA} \\ 
+		by 孙智正 \\ 
+		
+		\vspace{2em}
+		\href{https://github.com/yuanhes/4CornerIndex-to-Text}{IMPLEMENTATION} \\
+		by 元和 \\ 
+		
+		\vspace{3em}
+		PRODUCTION DATE \\
+		\today
+		
+	}
+	
+	\pagenumbering{gobble} % Skipping page numbering before mainmatter
+	
+	\mainmatter
+	
+	\setcounter{page}{1} % Starting page numbering form 1
+	
+	% input the text 
+	\input{text_from_pi_50M_digits.txt}
+	
+	......
+	
+\end{document}
