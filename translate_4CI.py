@@ -21,8 +21,10 @@ def translate_number_to_chinese(long_number):
                 # Match found; select a random character from the list
                 if mapping[chunk]:
                     selected_character = random.choice(mapping[chunk])
+                    if not selected_character:
+                        selected_character = "\n\n"
                 else:
-                    selected_character = "\n"
+                    selected_character = "\n\n"
 
                 translated_text.append(selected_character)
                 
