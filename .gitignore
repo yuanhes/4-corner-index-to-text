@@ -10,3 +10,7 @@ htmlcov/
 *.swp
 4CI_HTM/
 .vscode/
+pi_calculation/
+backup/
+favicon/
+temp/
