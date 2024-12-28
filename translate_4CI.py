@@ -31,9 +31,9 @@ def translate_number_to_chinese(long_number):
                 # Add the separator if we moved
                 if movement_steps > 0:
                     if movement_steps == 3:
-                        separator = '，'
+                        separator = ','
                     elif movement_steps > 3:
-                        separator = '。'
+                        separator = '.'
                     else:
                         separator = ' '
 
